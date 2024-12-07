@@ -1,34 +1,5 @@
-# Research
 
-Development of new gradient descent algorithms to improve training of deep neural networks
-
-## 1. Guided Exploration
-The Guided Exploration (GE) algorithm is designed to improve convergence in gradient descent optimization for machine learning models. By combining local and global search strategies, GE navigates complex loss landscapes, achieving better accuracy and convergence compared to traditional optimizers.
-
-### Algorithm
-* Sampling the Landscape: Perturb the current parameters to explore the local topology.
-* Identifying Key Features: Use Hessian matrix analysis or finite differences to detect local minima and saddle points.
-* Guided Navigation: Adjust gradients to steer toward promising regions identified during exploration.
-
-The algorithm can be integrated with gradient descent methods like SGD and Adam.
-
-### Tools / Technologies Used
-* **Framework**: TensorFlow
-* **Dataset**:  Fashion-MNIST
-* **Optimization Algorithms**: SGD, Adam, Guided Exploration
-
-### Results
-**Accuracy Improvement**
-* SGD with GE: 91.97% (4.39% improvement over SGD)
-* Adam with GE: 93.82% (1.57% improvement over Adam)
-
-The GE algorithm demonstrates superior performance in navigating non-convex loss landscapes, reducing loss and improving convergence efficiency.
-
-### Publication
-* 
-
-----------------------------
-## 2. Inverse Parameter Displacement SGD Optimizer
+## Inverse Parameter Displacement SGD Optimizer
 
 A new adaptive Stochastic Gradient Descent (SGD) algorithm that dynamically adjusts the learning rate for each model parameter based on the displacement of the parameter values across iterations. The approach enhances convergence and model accuracy, outperforming traditional optimizers like SGD with momentum and Adam.
 
