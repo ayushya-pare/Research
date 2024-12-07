@@ -4,7 +4,7 @@ An adaptive algorithm to suppress **Multipath Interference (MpI)** in **Time-of-
 
 ---
 
-### **Algorithm**
+### **Algorithm*
 
 - **Envelope-LMS Algorithm**:
   - Exploits the fact that the amplitude envelope of a sinusoidal signal remains constant unless corrupted by MpI.
