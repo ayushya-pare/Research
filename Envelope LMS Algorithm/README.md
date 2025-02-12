@@ -2,6 +2,8 @@
 🚀 **Envelope-LMS Multipath Suppression**:  
 An adaptive algorithm to suppress **Multipath Interference (MpI)** in **Time-of-Flight (ToF)** cameras by leveraging the amplitude envelope of the transmitted signal. The method uses an adaptive Least Mean Squares (LMS) filter to minimize deviations caused by MpI, improving the accuracy of depth measurements significantly.
 
+**Publication:** : https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ziroEzcAAAAJ&citation_for_view=ziroEzcAAAAJ:d1gkVwhDpl0C 
+
 ---
 
 ### **Algorithm*
